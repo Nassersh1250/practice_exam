@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pattern_match_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pattern_match_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="18000001fs"></ZoomEndTime>
+      <Cursor1Time time="18000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/pattern_match_TB/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_match_TB/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_match_TB/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_match_TB/serial">
+      <obj_property name="ElementShortName">serial</obj_property>
+      <obj_property name="ObjectShortName">serial</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_match_TB/template">
+      <obj_property name="ElementShortName">template[4:0]</obj_property>
+      <obj_property name="ObjectShortName">template[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_match_TB/tempout">
+      <obj_property name="ElementShortName">tempout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tempout[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_match_TB/serial_out">
+      <obj_property name="ElementShortName">serial_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">serial_out[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_match_TB/pattern_match">
+      <obj_property name="ElementShortName">pattern_match</obj_property>
+      <obj_property name="ObjectShortName">pattern_match</obj_property>
+   </wvobject>
+</wave_config>
